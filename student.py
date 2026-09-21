@@ -13,6 +13,10 @@ class Student:
         print("Student Major:", self.major)
 
     def inputgrades():
+        for i in range(5):
+            grade = float(input("Enter grade {}: ".format(i + 1)))
+            self.grades.append(grade)
+
         
 
 def main():
